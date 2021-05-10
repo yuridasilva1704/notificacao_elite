@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notificação</title>
-</head>
-<body>
-    <h1>Notificações</h1>
-    <input type="button" value="Notificar!" onclick="minhaNotificacao()">
-
-    <script>
-        //Verifica e solicita se o usuário tem permissão para utilizar as notificações do Chorme
+//Verifica e solicita se o usuário tem permissão para utilizar as notificações do Chorme
         document.addEventListener('DOMContentLoaded', function () { //Evento que verifica quando página foi carregada
  
             //Se não tiver suporte a Notification manda um alert para o usuário
@@ -44,7 +32,3 @@
         }
     }
     minhaNotificacao();
-    </script>
-    
-</body>
-</html>
